@@ -1,0 +1,34 @@
+.todoListContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.todoList {
+    display: flex;
+    flex-flow: row wrap;
+}
+.todo {
+        margin: 2rem;
+        background: $bg-color-todo;
+        padding: .5rem 3rem;
+        font-size: 3rem;
+        color: $grey;
+        border-radius: 12px;
+        border: 2px solid $color-todo-border;
+
+}
+
+.todoForm {
+    display: flex;
+    flex-direction: column;
+
+    form {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+.taskCompleted {
+    background: $color-secondary-light;
+    text-decoration: line-through;
+}
